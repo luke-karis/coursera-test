@@ -11,14 +11,25 @@ h1 {
 }
 
 h2 {
-    background-color: rgb(154, 154, 218);
+    /*background-color: rgb(154, 154, 218);*/
     border: 1px solid black;
     width: 150px;
     position: absolute;
     right: 5%;
     top: -1.6%;
-    
     text-align: center;
+}
+
+.red {
+    background-color: rgb(230, 59, 59);
+}
+
+.blue {
+    background-color: rgb(105, 105, 226);
+}
+
+.green {
+    background-color: rgb(44, 168, 44);
 }
 
 p {
@@ -26,8 +37,12 @@ p {
     border: 1px solid black;
     width: 90%;
     height: 200px; 
+    /*
     margin-right: auto;
     margin-left: auto;
+    */
+    margin-right: 5%;
+    margin-left: 5%;
     padding: 30px 10px 10px 10px;
     overflow: hidden;
 }
@@ -37,16 +52,11 @@ p {
     width: 100%;
 }
 
-.altMed {
-    float: left;
-    width: 100%;
-}
-
 @media (min-width: 992px){
     .col-lg {
         float: left;
         width: 33.33%;
-        /*border: 2px solid green;*/
+        border: 2px solid green;
     }
 }
 
@@ -54,7 +64,22 @@ p {
     .col-med {
         float: left;
         width: 50%;
-        /*border: 2px solid green;*/
+        border: 2px solid green;
+    }
+
+    .col-med-long {
+        float: left;
+        width: 100%;
+        border: 2px solid green;
+    }
+
+    .p-med-long {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .h2-med-long {
+        right: 2.5%;
     }
 }
 
@@ -62,6 +87,6 @@ p {
     .col-sm {
         float: left;
         width: 100%;
-        /*border: 2px solid green;*/
+        border: 2px solid green;
     }
 }
