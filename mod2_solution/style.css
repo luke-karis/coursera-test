@@ -43,11 +43,6 @@ p {
     overflow: hidden;
 }
 
-/*maybe remove this??*/
-.row {
-    width: 100%;
-}
-
 @media (min-width: 992px){ 
     .col-lg {
         float: left;
