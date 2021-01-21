@@ -9,10 +9,72 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
+
     <body>
-        <nav class = "navbar navbar-default">
+        <header>
             
-        </nav>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container-fluid"> 
+                    <div class="navbar-header">
+                        <div class="navbar-brand">
+                            <a  href="index.html">
+                                <h1>Food, LLC</h1>
+                            </a>
+                        </div>
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div> <!-- navbar-header-->
+
+                    <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                            <li>
+                                <a href="#">Chicken</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="#">Beef</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="#">Sushi</a>
+                            </li>
+                        </ul><!-- #nav-list -->
+                    </div><!-- .collapse .navbar-collapse -->
+                </div> 
+            </nav> 
+        </header>
+
+        <!-- should this be in the container-fluid div?-->
+        <h2 class="text-center">Our Menu</h2>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="chicken-content">
+                        <h3 class="text-center">Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus augue sagittis diam placerat volutpat. Etiam augue quam, facilisis sit amet eros quis, placerat faucibus neque. Aenean sed nibh nunc. Nunc pretium libero sed aliquam cursus. Nullam convallis vitae dolor ac finibus. Proin vel felis sed orci iaculis congue. Aenean massa lacus, mollis sed nunc congue, elementum posuere dolor. Mauris non leo arcu. Phasellus tincidunt nulla ut est suscipit placerat a in tortor.
+                            Phasellus pharetra, dui ac varius mollis, nisl urna vulputate libero, at vestibulum purus justo sed dui. Curabitur lobortis tincidunt lobortis. Curabitur sollicitudin lacinia placerat. Mauris pellentesque tincidunt commodo. Duis libero elit, consectetur ut quam ut, ornare mollis ex. Nulla a convallis ipsum. Duis congue turpis tortor, eu placerat eros tempor at. Donec semper ornare massa, eget bibendum tellus semper ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras vehicula tempus est vel feugiat. Pellentesque auctor urna enim, et bibendum quam malesuada ut. In consequat, ligula in semper vulputate, lacus libero ultrices eros, vel aliquet dolor dui vel ex. Nam a vulputate lectus. Nullam scelerisque consectetur auctor. Nam vel varius diam.
+                            Nulla ac diam quam. Phasellus interdum, leo in aliquam blandit, neque elit pulvinar diam, eu faucibus sem elit ut felis. Phasellus varius arcu ac dui pellentesque, et elementum justo facilisis. Cras fringilla urna id velit faucibus ultricies. Morbi orci lectus, volutpat eu bibendum vel, convallis sit amet diam. Nullam lobortis congue mi vitae posuere. Curabitur vestibulum nisi sed purus sodales, in semper leo commodo.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus augue sagittis diam placerat volutpat. Etiam augue quam, facilisis sit amet eros quis, placerat faucibus neque. Aenean sed nibh nunc. Nunc pretium libero sed aliquam cursus. Nullam convallis vitae dolor ac finibus. Proin vel felis sed orci iaculis congue. Aenean massa lacus, mollis sed nunc congue, elementum posuere dolor. Mauris non leo arcu. Phasellus tincidunt nulla ut est suscipit placerat a in tortor.
+                            Phasellus pharetra, dui ac varius mollis, nisl urna vulputate libero, at vestibulum purus justo sed dui. Curabitur lobortis tincidunt lobortis. Curabitur sollicitudin lacinia placerat. Mauris pellentesque tincidunt commodo. Duis libero elit, consectetur ut quam ut, ornare mollis ex. Nulla a convallis ipsum. Duis congue turpis tortor, eu placerat eros tempor at. Donec semper ornare massa, eget bibendum tellus semper ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras vehicula tempus est vel feugiat. Pellentesque auctor urna enim, et bibendum quam malesuada ut. In consequat, ligula in semper vulputate, lacus libero ultrices eros, vel aliquet dolor dui vel ex. Nam a vulputate lectus. Nullam scelerisque consectetur auctor. Nam vel varius diam.
+                            Nulla ac diam quam. Phasellus interdum, leo in aliquam blandit, neque elit pulvinar diam, eu faucibus sem elit ut felis. Phasellus varius arcu ac dui pellentesque, et elementum justo facilisis. Cras fringilla urna id velit faucibus ultricies. Morbi orci lectus, volutpat eu bibendum vel, convallis sit amet diam. Nullam lobortis congue mi vitae posuere. Curabitur vestibulum nisi sed purus sodales, in semper leo commodo.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus augue sagittis diam placerat volutpat. Etiam augue quam, facilisis sit amet eros quis, placerat faucibus neque. Aenean sed nibh nunc. Nunc pretium libero sed aliquam cursus. Nullam convallis vitae dolor ac finibus. Proin vel felis sed orci iaculis congue. Aenean massa lacus, mollis sed nunc congue, elementum posuere dolor. Mauris non leo arcu. Phasellus tincidunt nulla ut est suscipit placerat a in tortor.
+                            Phasellus pharetra, dui ac varius mollis, nisl urna vulputate libero, at vestibulum purus justo sed dui. Curabitur lobortis tincidunt lobortis. Curabitur sollicitudin lacinia placerat. Mauris pellentesque tincidunt commodo. Duis libero elit, consectetur ut quam ut, ornare mollis ex. Nulla a convallis ipsum. Duis congue turpis tortor, eu placerat eros tempor at. Donec semper ornare massa, eget bibendum tellus semper ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras vehicula tempus est vel feugiat. Pellentesque auctor urna enim, et bibendum quam malesuada ut. In consequat, ligula in semper vulputate, lacus libero ultrices eros, vel aliquet dolor dui vel ex. Nam a vulputate lectus. Nullam scelerisque consectetur auctor. Nam vel varius diam.
+                            Nulla ac diam quam. Phasellus interdum, leo in aliquam blandit, neque elit pulvinar diam, eu faucibus sem elit ut felis. Phasellus varius arcu ac dui pellentesque, et elementum justo facilisis. Cras fringilla urna id velit faucibus ultricies. Morbi orci lectus, volutpat eu bibendum vel, convallis sit amet diam. Nullam lobortis congue mi vitae posuere. Curabitur vestibulum nisi sed purus sodales, in semper leo commodo.
+                        </p>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+       
+
         <!-- jQuery (Bootstrap JS plugins depend on it!)-->
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
