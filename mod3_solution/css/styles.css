@@ -44,16 +44,14 @@ hr {
 }
 
 #nav-list a:hover {
-  background: cornsilk;
+  background: rgb(255, 246, 211);
 }
-
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid black;
 }
-
-
 /** HEADER END **/
+
 
 /** BODY START **/
 h2 {
@@ -73,5 +71,4 @@ h3 {
   padding: 10px;
   overflow: hidden;
 }
-
 /** BODY END **/
